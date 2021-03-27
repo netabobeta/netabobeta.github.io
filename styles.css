@@ -1,0 +1,86 @@
+body{
+    font-family: "EB Garamond", times;
+    margin: 0px;
+
+}
+
+/* Navigation Home Page */
+.navigation{
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px;
+    color: gray
+}
+
+.leftcolumn {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+}
+
+.rightcolumn {
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 1.5em;
+    font: times;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    color: #adadad;
+}
+
+.leftcolumn a {
+    color: #adadad;
+    text-decoration: none;
+    transition: color 0.5s;
+    transition: border-bottom 0.5s;
+    margin-right: 15px;
+}
+
+
+.leftcolumn a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.navigation > .leftcolumn > div {
+    /*access Divs in path and set styles*/
+
+}
+
+.main-photo {
+    display:flex;
+    max-width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aligncenter {
+    text-align: center
+}
+
+/* Gallery Page */
+.gallery-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+.gallery-photo {
+    height: 300px;
+    width: 75%;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    border: gray;
+    background-size: cover;
+
+}
