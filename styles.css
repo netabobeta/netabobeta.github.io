@@ -74,13 +74,11 @@ body{
 
 .gallery-photo {
     height: 300px;
-    width: 75%;
-    background-size: auto;
-    background-position-x: center;
-    background-position-y: center;
+    width: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     margin-bottom: 40px;
     border: gray;
-    background-size: cover;
 
 }
