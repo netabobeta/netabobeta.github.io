@@ -68,16 +68,18 @@ body{
 /* Gallery Page */
 .gallery-grid {
     display:grid;
-    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-template-columns: auto auto auto;
+    position: cover;
 }
 
 .gallery-photo {
     height: 300px;
-    width: 500px;
-    background-size: cover;
-    background-position: 50% 50%;
     background-repeat: no-repeat;
     margin-bottom: 40px;
     border: gray;
+    background-size:cover;
+    background-position: 50% 50%;
 
 }
