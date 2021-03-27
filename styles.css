@@ -70,7 +70,7 @@ body{
     display:grid;
     margin-left: 40px;
     margin-right: 40px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1.1fr .8fr 1.1fr;
     position: cover;
 }
 
