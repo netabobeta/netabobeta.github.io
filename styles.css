@@ -68,13 +68,12 @@ body{
 /* Gallery Page */
 .gallery-grid {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
     position: relative;
 }
 
 .gallery-photo {
     height: 300px;
-    width: 500px;
+    width: 600px;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
