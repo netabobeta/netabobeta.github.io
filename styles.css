@@ -103,6 +103,6 @@ body{
 
 .imgsize{
     max-width: 45%;
+    max-height: 300px;
     padding-left: 2%;
-    /* height: "300px"; */
 }
