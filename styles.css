@@ -1,7 +1,7 @@
 body{
     font-family: "EB Garamond", times;
     margin: 2%;
-    color: gray
+    color: black
 
 }
 
@@ -10,7 +10,7 @@ body{
     display: flexbox;
     justify-content: space-between ;
     padding: 10px;
-    color: gray
+    color: black
 }
 
 .leftcolumn {
@@ -31,11 +31,11 @@ body{
     font: times;
     height: 22px;
     border-bottom: 1px solid transparent;
-    color: #adadad;
+    color: black;
 }
 
 .leftcolumn a {
-    color: #adadad;
+    color: black;
     text-decoration: none;
     transition: color 0.5s;
     transition: border-bottom 0.5s;
