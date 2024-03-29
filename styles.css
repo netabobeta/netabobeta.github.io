@@ -1,13 +1,13 @@
 body{
     font-family: "EB Garamond", times;
-    margin: 0px;
+    margin: 2%;
     color: gray
 
 }
 
 /* Navigation Home Page */
 .navigation{
-    display: flex;
+    display: flexbox;
     justify-content: space-between ;
     padding: 10px;
     color: gray
