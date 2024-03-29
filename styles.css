@@ -16,7 +16,7 @@ body{
 .leftcolumn {
     margin-right: 30px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 1.2em;
     
     text-transform: uppercase;
@@ -25,7 +25,7 @@ body{
 }
 
 .rightcolumn {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-right: 30px;
     font-size: 1.5em;
     font: times;
