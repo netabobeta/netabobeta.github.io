@@ -1,6 +1,9 @@
 body{
     font-family: "EB Garamond", times;
-    margin: 2%;
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: black
 }
 
@@ -8,15 +11,28 @@ body{
 .navigation{
     display: flexbox;
     justify-content: space-between ;
-    padding: 10px;
+    padding: 0%;
     color: black
+}
+
+.leftcolumn-big {
+    margin-right: 30px;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size: 1.7em;
+    
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 1px solid transparent;
 }
 
 .leftcolumn {
     margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 10px;
-    font-size: 1.5em;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size: 1.1em;
     
     text-transform: uppercase;
     height: 22px;
@@ -24,7 +40,7 @@ body{
 }
 
 .rightcolumn {
-    margin-top: 10px;
+    margin-top: 0%;
     margin-right: 30px;
     font-size: 1.5em;
     font: times;
@@ -82,4 +98,14 @@ body{
     background-size:cover;
     background-position: 50% 50%;
 
+}
+
+
+.first-para{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.news{
+    align-items: left;
 }
