@@ -15,6 +15,11 @@ body{
     color: black
 }
 
+li {
+    list-style-type: square;
+    padding-bottom: 10px;
+  }
+
 
 
 .leftcolumn {
@@ -103,11 +108,7 @@ body{
 
 .imgsize{
     max-width: 45%;
-    max-height: 300px;
+    max-height: 240px;
     padding-left: 2%;
 }
 
-li {
-    list-style-type: square;
-    padding-bottom: 10px;
-  }
