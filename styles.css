@@ -112,3 +112,20 @@ li {
     padding-left: 2%;
 }
 
+
+.tree {
+ /*   --spacing: 1.5rem;
+    --radius: 10px;*/
+}
+
+details{
+    display: block;
+}
+
+
+summary {
+    list-style-position: outside;
+    margin-left: 10px;
+    padding: 0px 20px 0px 2px;
+    border-radius: 10px;
+  }
